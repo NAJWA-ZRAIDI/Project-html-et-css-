@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FORMATION</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="header">
+            <div class="contenu">
+                <img src="images/logoinfo.png"class="logo">
+                <div class="prv">
+                    <h1>“L'informatique, ça fait gagner beaucoup de temps... à condition d'en avoir beaucoup devant soi !”</h1>
+                </div>
+                <div class="header-text">
+                    <h1>Cette formation est d'enseigner, d'apporter l'apprentissage aux gens.</h1>
+                </div>
+                <div class="prvinfo">
+                    <h1>“L’informatique n’est qu’un outil, comme un pinceau ou un crayon. ”</h1>
+                </div>
+            </div>
+        </section>
+        <nav id="menu" >
+            <img src="images/menu.png" id="menubotton">
+            <br>
+            <br><br>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Les%20cours.html">LES COURS</a></li>
+                  <li><a href="LES%20TDs.html">LES TDs</a></li>
+                <li><a href="les%20TPs.html">LES TPs</a></li>
+                <li><a href="CONTACT.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <script>
+            var menubotton = document.getElementById("menubotton");
+            var menu =document.getElementById("menu");
+            menu.style.right="-250px";
+            menubotton.onclick=function(){
+                if(menu.style.right=="-250px"){
+                    menu.style.right="0";
+                }
+                else{
+                    menu.style.right="-250px";
+                }
+            }
+        </script>
+    </body>
+    
+</html>

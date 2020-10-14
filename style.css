@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:"time new roman";
+}
+#header{
+    height: 100vh;
+    background-image: url(images/backcolor.jfif);
+    background-position: center;
+    background-size: cover;
+
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+     text-transform: uppercase;
+    margin-top:20px;
+}
+.header-text{
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-left: 200;
+    cursor: pointer;
+    color:black;
+    background-color: burlywood;
+    border-radius: 10% 
+}
+.prv{
+    max-width: 450px;
+    margin-top: 10px;
+    margin-left: 100;
+    cursor: pointer;
+    color:black;
+    background-color:antiquewhite;
+    border-radius: 20% 
+}
+.prvinfo{
+    border-radius: 25px 24px;
+    max-width: 450px;
+    margin-top: 120px;
+    margin-left: 900px;
+    cursor: pointer;
+    color:black;
+    background-color:bisque;
+}
+h1{
+    font-size: 34px;
+    text-align:center;
+}
+.btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header-text button{
+    margin-top: 20px;
+  margin-bottom: 16px;
+}
+#menu{
+    width: 250px;
+    height: 100vh;
+    position:fixed;
+    right: -250px;
+    top:0;
+    background: #f67c92;
+    z-index: 2;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:azure;
+}
+#menubotton{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+.backg{
+     height: 100vh;
+    background-image: url(images/backcours.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#progctd {
+    border-radius: 25px;
+   background-color: darksalmon;
+    padding: 20px;
+    width: 70%;
+    height: 500px;
+}
+
+#Algotd{
+    border-radius: 25px;
+    background-color:burlywood ;
+    padding: 20px;
+    width: 70%;
+    height: 400px;
+}
+#infotd {
+    border-radius: 25px;
+    background-color:cornflowerblue;
+    padding: 20px;
+    width: 70%;
+    height: 200px;
+}
+#Sexptd{
+    border-radius: 25px;
+    background-color: aliceblue ;
+    padding: 20px;
+    width: 70%;
+    height: 350px;
+    }
+#brtp {
+    border-radius: 25px;
+   background-color: darksalmon;
+    padding: 20px;
+    width: 70%;
+    height: 250px;
+}
+#vbtp {
+    border-radius: 25px;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 70%;
+    height: 300px;
+}
+#Algotp {
+    border-radius: 25px;
+    background-color: burlywood ;
+    padding: 20px;
+    width: 70%;
+    height: 350px;
+}
+#BDTP {
+    border-radius: 25px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 70%;
+    height: 300px;
+}
+    #RITP{
+         border-radius: 25px;
+    background-color:aquamarine;
+    padding: 20px;
+    width: 70%;
+    height: 600px;
+    }
+#Cplustp{
+    border-radius: 25px;
+    background-color: aliceblue ;
+    padding: 20px;
+    width: 70%;
+    height: 450px;
+}
+#infoindtp {
+    border-radius: 25px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 70%;
+    height: 450px;
+}
+#progcCS {
+    border-radius: 25px;
+   background-color: darksalmon;
+    padding: 20px;
+    width: 70%;
+    height: 700px;
+}
+
+#BDCS {
+    border-radius: 25px;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 70%;
+    height: 150px;
+}
+
+
+
+#burCS {
+    border-radius: 25px;
+    background-color: burlywood ;
+    padding: 20px;
+    width: 70%;
+    height: 350px;
+}
+#progcplusCS {
+    border-radius: 25px;
+    background-color: burlywood;
+    padding: 20px;
+    width: 70%;
+    height: 200px;
+}
+#meriseCS {
+    border-radius: 25px;
+    background-color:cadetblue;
+    padding: 20px;
+    width: 70%;
+    height: 350px;
+}
+#vbCS{
+    border-radius: 25px;
+    background-color: burlywood;
+    padding: 20px;
+    width: 70%;
+    height: 150px;
+}
+#algoCS {
+    border-radius: 25px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 70%;
+    height: 400px;
+}
+#resinfoCS{
+    border-radius: 25px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 70%;
+    height: 200px;
+}
+#ArchCS{
+    border-radius: 25px;
+    background-color:cadetblue;
+    padding: 20px;
+    width: 70%;
+    height: 200px;
+}
+#SECS{
+    border-radius: 25px;
+    background-color: aliceblue ;
+    padding: 20px;
+    width: 70%;
+    height: 580px;
+}
+#infoindusCS {
+    border-radius: 25px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 70%;
+    height: 450px;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(images/tp.jpg);
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    top: 41px;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    text-align: center;
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    justify-content: center;
+    align-items:flex-start;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color:blue;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+     padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width:991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactform
+    {
+        width: 100%;
+    }
+}
